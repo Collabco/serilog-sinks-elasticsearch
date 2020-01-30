@@ -27,7 +27,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
-    <PackageReference Include="Microsoft.NETCore.Platforms" Version="1.1.0" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="3.1.0" />
     <PackageReference Include="Serilog.Sinks.ColoredConsole" Version="2.0.0" />
     <PackageReference Include="dotnet-test-nunit" Version="3.4.0-beta-1" />
     <PackageReference Include="xunit" Version="2.2.0" />
@@ -38,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net451' ">
-    <PackageReference Include="Microsoft.NETCore.Platforms" Version="1.0.2" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="3.1.0" />
     <Reference Include="System.Diagnostics.Tools" />
     <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Reflection" />
